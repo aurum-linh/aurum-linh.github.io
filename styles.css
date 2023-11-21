@@ -16,3 +16,80 @@ div {
   font-family: Georgia, serif;
   margin-bottom: 1.5em;
 }
+
+#navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#navbar li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  left: 0;
+}
+
+#navbar a {
+  text-decoration: none;
+  padding: 1em;
+  /* background: red; */
+}
+
+#navbar a:hover {
+  color: green;
+}
+
+#navbar a:visited {
+  text-decoration: none;
+}
+
+/* phone screens */
+@media screen and (max-width: 600px) {
+  #navbar {
+    width: 100%;
+    height: 10%;
+    left: 0;
+    top: 0;
+    /* background: green; */
+  }
+
+  #navbar li {
+    display: inline;
+    float: left;
+  }
+
+  #content {
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    right: 3em;
+    /* background: blue; */
+  }
+}
+
+/* ipad screens */
+
+/* computer screens */
+@media screen and (min-width: 601px) {
+  #navbar {
+    width: 20%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* background: green; */
+  }
+
+  #navbar li {
+    display: block;
+  }
+
+  #content {
+    position: absolute;
+    width: 80%;
+    right: 4em;
+    top: 0;
+    /* background: blue; */
+  }
+}
