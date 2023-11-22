@@ -78,6 +78,7 @@ div {
 
 /* phone screens */
 @media screen and (max-width: 600px) {
+
   img {
     padding-bottom: 2em;
     padding-left: 20%;
@@ -99,7 +100,7 @@ div {
     position: absolute;
     max-width: 25em;
     top: 10%;
-    right: 1.5em
+    padding: 1.5em;
   }
 
   /* for list on writing main page */
