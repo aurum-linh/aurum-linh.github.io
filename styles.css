@@ -20,7 +20,7 @@ div {
 /* global styles, all screen sizes */
 
 #content {
-  background: #ECC8AE;
+  /* background: #ECC8AE; */
 }
 
 /* styles for writing 2023 page - unordered list of essays + poems */
@@ -44,7 +44,7 @@ div {
   position: absolute;
   left: 0;
   top: 0;
-  background: #FFD29D;
+  /* background: #FFD29D; */
 
 }
 
@@ -54,7 +54,7 @@ div {
   margin: 0;
   border: 0;
   left: 0;
-  background: #918450;
+  /* background: #918450; */
 }
 
 #navbar a {
@@ -102,7 +102,7 @@ div {
     max-width: 100%;
     top: 10%;
     padding: 1.5em;
-    background: powderblue;
+    /* background: powderblue; */
   }
 
   /* for list on writing main page */
