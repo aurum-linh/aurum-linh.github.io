@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Decipher Symbols';
+  src: url('/assets/fonts/DecipherSymbolsPERSONALUSE-Regular.woff2') format('woff2'),
+    url('/assets/fonts/DecipherSymbolsPERSONALUSE-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Decipher';
+  src: url('/assets/fonts/DecipherPERSONALUSE-Regular.woff2') format('woff2'),
+    url('/assets/fonts/DecipherPERSONALUSE-Regular.woff') format('woff');
+}
+
+$font: Arial, Helvetica, sans-serif;

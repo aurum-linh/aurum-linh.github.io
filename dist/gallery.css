@@ -1,0 +1,22 @@
+img {
+  width: 10em;
+  height: 7em;
+}
+
+.gallery-card {
+  padding: 2em;
+  padding-left: 0;
+}
+.gallery-card img {
+  margin-bottom: 1em;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60vw;
+}
+
+#sky-gallery {
+  padding: 2em;
+}/*# sourceMappingURL=gallery.css.map */
