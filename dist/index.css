@@ -1,0 +1,53 @@
+#homepage-container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#about-container {
+  width: 40%;
+  margin-left: 2em;
+  padding-bottom: 2em;
+}
+
+#self-image {
+  width: 40%;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#spirit-quest {
+  padding-left: 0.5em;
+  margin-top: 2em;
+}
+
+#nametag {
+  width: 40%;
+  position: fixed;
+  top: 0;
+  right: 0.5em;
+}
+
+img {
+  width: 10em;
+  height: 7em;
+}
+
+.gallery-card {
+  padding: 2em;
+  padding-left: 0;
+}
+.gallery-card img {
+  margin-bottom: 1em;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60vw;
+}
+
+#sky-gallery {
+  padding: 2em;
+}/*# sourceMappingURL=index.css.map */
