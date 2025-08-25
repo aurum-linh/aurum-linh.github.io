@@ -16,4 +16,5 @@ body {
   font-family: util.$font;
   background-color: var(--background-color);
   color: var(--text-color);
+  cursor: url('/assets/util/cursor.png'), auto;
 }
