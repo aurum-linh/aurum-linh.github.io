@@ -1,34 +1,33 @@
+@use '../util/' as u;
+
 #homepage-container {
   margin: 0 auto;
-  width: 100%;
-  // min-height: 120vh;
-  // background: hsl(0, 0%, 0%);
   // grainy svg experiment 
   // background-image: url(../../assets/util/noise.svg);
 }
 
 #about-container {
-  width: 40%;
   margin-left: 2em;
   padding-bottom: 2em;
 }
 
 #self-image {
-  width: 40%;
   height: auto;
-  position: fixed;
-  bottom: 0;
-  right: 0;
+
+  @include u.breakpoint(large) {
+    width: 30%;
+    max-width: 25em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 #spirit-quest {
-  padding-left: 0.5em;
+  padding-left: 2em;
   margin-top: 2em;
 }
 
 #nametag {
-  width: 40%;
-  position: fixed;
-  top: 0;
-  right: 0.5em;
+  width: 80%;
 }

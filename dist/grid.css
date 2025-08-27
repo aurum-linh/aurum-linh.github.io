@@ -6,33 +6,20 @@
   font-family: "Decipher";
   src: url("/assets/util/fonts/DecipherPERSONALUSE-Regular.woff2") format("woff2"), url("/assets/fonts/DecipherPERSONALUSE-Regular.woff") format("woff");
 }
-#homepage-container {
-  margin: 0 auto;
-}
-
-#about-container {
-  margin-left: 2em;
-  padding-bottom: 2em;
-}
-
-#self-image {
-  height: auto;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 2em;
+  width: min(100%, 1300px);
+  margin-inline: auto;
 }
 @media (min-width: 56.25em) {
-  #self-image {
-    width: 30%;
-    max-width: 25em;
-    position: fixed;
-    bottom: 0;
-    right: 0;
+  .grid {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
   }
 }
-
-#spirit-quest {
-  padding-left: 2em;
-  margin-top: 2em;
-}
-
-#nametag {
-  width: 80%;
-}/*# sourceMappingURL=homepage.css.map */
+.grid__main, .grid__sidebar {
+  padding: 2em;
+}/*# sourceMappingURL=grid.css.map */
