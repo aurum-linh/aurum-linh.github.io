@@ -12,6 +12,6 @@ function changeTitles(titles, interval) {
 
 
 const titles = [" aurum linh 𓆩🖤𓆪 ", "⋆˚₊ 𖤓☽˚.⋆", "°‧ 𓆝 𓆟 𓆞 ·｡"];
-const interval = 2000; // 2 seconds
+const interval = 3000; // 3 seconds
 
 changeTitles(titles, interval);

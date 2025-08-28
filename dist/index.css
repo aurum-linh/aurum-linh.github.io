@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Decipher Symbols";
+  src: url("/assets/util/fonts/DecipherSymbolsPERSONALUSE-Regular.woff2") format("woff2"), url("/assets/fonts/DecipherSymbolsPERSONALUSE-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Decipher";
+  src: url("/assets/util/fonts/DecipherPERSONALUSE-Regular.woff2") format("woff2"), url("/assets/fonts/DecipherPERSONALUSE-Regular.woff") format("woff");
+}
 #homepage-container {
   margin: 0 auto;
 }
@@ -10,7 +18,7 @@
 #self-image {
   height: auto;
 }
-@media (min-width: 1100px) {
+@media (min-width: 56.25em) {
   #self-image {
     width: 30%;
     max-width: 25em;
@@ -23,12 +31,10 @@
 #spirit-quest {
   padding-left: 2em;
   margin-top: 2em;
-  background-color: green;
 }
 
 #nametag {
   width: 80%;
-  background-color: green;
 }
 
 img {
@@ -53,20 +59,12 @@ img {
   padding: 2em;
 }
 
-@font-face {
-  font-family: "Decipher Symbols";
-  src: url("/assets/util/fonts/DecipherSymbolsPERSONALUSE-Regular.woff2") format("woff2"), url("/assets/fonts/DecipherSymbolsPERSONALUSE-Regular.woff") format("woff");
-}
-@font-face {
-  font-family: "Decipher";
-  src: url("/assets/util/fonts/DecipherPERSONALUSE-Regular.woff2") format("woff2"), url("/assets/fonts/DecipherPERSONALUSE-Regular.woff") format("woff");
-}
 .grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  gap: 2em;
-  width: min(100%, 1300px);
+  gap: 2.5rem;
+  width: min(100% - 2.5rem, 81.25rem);
   margin-inline: auto;
 }
 @media (min-width: 56.25em) {
@@ -76,11 +74,26 @@ img {
   }
 }
 .grid__main, .grid__sidebar {
-  padding: 2em;
+  padding: 2.5rem;
 }
 .grid__main {
   background-color: hsl(240, 98%, 26%);
 }
 .grid__sidebar {
   background-color: hsl(300, 97%, 25%);
+}
+@media (max-width: 56.24875em) {
+  .grid__sidebar {
+    background-color: hsl(146, 92%, 47%);
+    text-align: center;
+  }
+}
+@media (max-width: 43.74875em) {
+  .grid__sidebar {
+    background-color: hsl(82, 64%, 81%);
+  }
+}
+.grid__widget {
+  background-color: hsl(234, 81%, 58%);
+  padding: 1rem;
 }/*# sourceMappingURL=index.css.map */

@@ -4,8 +4,8 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  gap: 2em;
-  width: min(100%, 1300px);
+  gap: u.rem(40);
+  width: min(100% - u.rem(40), u.rem(1300));
   margin-inline: auto;
 
   @include u.breakpoint(large) {
@@ -15,7 +15,7 @@
 
   &__main,
   &__sidebar {
-    padding: 2em;
+    padding: u.rem(40);
   }
 
   &__main {
@@ -24,5 +24,18 @@
 
   &__sidebar {
     // background-color: hsl(300, 97%, 25%);
+
+    @include u.breakpoint-down(medium) {
+      // background-color: hsl(146, 92%, 47%);
+      text-align: center;
+    }
+
+    @include u.breakpoint-down(small) {
+      // background-color: hsl(82, 64%, 81%);
+    }
+  }
+
+  &__widget {
+    padding: u.rem(16);
   }
 }
